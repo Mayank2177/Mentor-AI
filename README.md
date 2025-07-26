@@ -1,1 +1,1 @@
-# NextGen-Tutor
+# Mentor-AI
