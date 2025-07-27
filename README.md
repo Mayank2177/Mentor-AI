@@ -59,8 +59,8 @@ npm start
 
 #### Backend
 ```bash
-cd Server
-python app.py
+cd server
+python main.py
 ```
 
 ## Usage
