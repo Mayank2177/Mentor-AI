@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
             <div 
                 className="text-3xl font-bold text-green-700 cursor-pointer"
                 onClick={() => router.push("/")}
-            >FINSTRA</div>
+            >MENTOR.AI</div>
             <ul className="flex space-x-6 text-m font-medium ul">
                 <li><Link href="#features" className="underline-animate py-1">Features</Link></li>
                 <li><Link href="#about"  className="underline-animate py-1">About</Link></li>
