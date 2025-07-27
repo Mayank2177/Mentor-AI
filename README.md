@@ -10,22 +10,22 @@ An AI-powered interactive learning platform that transcends traditional Q/A tuto
 - **Emotional Guidance:** Recognizes and responds to student emotions to promote well-being.
 - **Real-time Problem Solving:** Instant help and solutions for questions and assignments.
 - **Progress Analytics:** Comprehensive dashboards for students, teachers, and parents to track performance and growth.
-- **Collaborative Spaces:** Enables teachers and parents to participate and monitor student progress.
+
 
 ## Technologies Used
 
-- **Frontend:** TypeScript, JavaScript, HTML, CSS
-- **Backend & AI Services:** Python
-- **Frameworks/Libraries:** (List relevant frameworks used, e.g., React, Node.js, TensorFlow, etc.)
-- **APIs:** (List external/internal APIs used if any)
+- **Frontend:** TypeScript, JavaScript, next.js, HTML, CSS, javascript
+- **Backend & AI Services:** Python, fastapi, langchain
+- **Frameworks/Libraries:**  React, Node.js etc.)
+- **APIs:** Gemini api,Langsmith_api
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js and npm
-- Python 3.x
-- (List any additional dependencies or tools)
+- Python> 3.10
+- check package.json and requirements.txt
 
 ### Installation
 
@@ -59,20 +59,21 @@ npm start
 
 #### Backend
 ```bash
-cd backend
+cd Server
 python app.py
 ```
 
 ## Usage
 
-- Sign up as a student, teacher, or parent.
+- Sign up as a student.
 - Interact with the AI tutor using text, images, audio, or video.
-- Receive personalized study plans and real-time feedback.
+- Attempt the quiz to get subject-oriented/topic oriented real-time feedback.
 - Access analytics to monitor progress and adjust learning strategies.
 
 ## Contributing
 
-Contributions are welcome! Please open issues or pull requests for suggestions, bug fixes, or improvements.
+Contributions are welcome! 
+Please open issues or pull requests for suggestions, bug fixes, or improvements.
 
 ## License
 
