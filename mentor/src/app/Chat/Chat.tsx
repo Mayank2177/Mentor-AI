@@ -8,7 +8,7 @@ import { HandCoins, Plus } from 'lucide-react'
 import React, { useEffect, useRef, useState } from 'react'
 import Markdown from 'react-markdown'
 
-const baseUrl = 'https://finstra-production.up.railway.app/';
+
 
 interface MessageType {
   sender: string
