@@ -24,3 +24,33 @@ const Navbar: React.FC = () => {
 }
 
 export default Navbar  
+ <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2>mentorAI</h2>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#features" class="nav__link">Features</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About Us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__actions">
+                <button class="btn btn--outline">Sign In</button>
+                <button class="btn btn--primary">Login</button>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
