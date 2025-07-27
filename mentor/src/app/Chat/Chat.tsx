@@ -1,10 +1,9 @@
 'use client'
-import InputBox from '@/components/InputBox/InputBox'
+// import InputBox from '@/components/InputBox/InputBox'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import axios, { AxiosResponse } from 'axios'
-import { HandCoins, Plus } from 'lucide-react'
 import React, { useEffect, useRef, useState } from 'react'
 import Markdown from 'react-markdown'
 
@@ -18,7 +17,7 @@ interface MessageType {
   scam_detected?: boolean
 }
 
-const Page: React.FC = () => {
+const Chat: React.FC = () => {
   // const [suggestions, setSuggestions] = useState<string[]>([]);
   // const [isLoading, setIsLoading] = useState<boolean>(false);
 

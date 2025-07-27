@@ -1,4 +1,5 @@
-import React, { useRef, useEffect } from "react";
+"use client";
+import { useRef, useEffect } from "react";
 
 const Quiz = () => {
   const loadingScreenRef = useRef(null);

@@ -1,4 +1,3 @@
-
 'use client'; // Required if using Next.js App Router for client-side interaction
 import React, { useRef, useEffect } from 'react';
 
@@ -514,4 +513,4 @@ const ProfilePage: React.FC = () => {
   );
 };
 
-export default Profile;
+export default ProfilePage;

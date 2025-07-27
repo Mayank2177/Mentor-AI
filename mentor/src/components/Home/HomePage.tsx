@@ -37,7 +37,7 @@ export default function HomePage() {
           {options.map(({ label, route, emoji, description, color }) => (
             <div
               key={label}
-              className="option-card"
+              className={`option-card`}
               onClick={() => router.push(route)}
               style={{ background: color }}
               tabIndex={0}
