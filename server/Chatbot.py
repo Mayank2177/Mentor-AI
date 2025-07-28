@@ -311,13 +311,3 @@ print(response.json())
 history = requests.get("http://localhost:8000/history/student_123")
 print(history.json())
 """
-
-# Requirements.txt content:
-"""
-langchain>=0.1.0
-langchain-google-genai>=1.0.0
-fastapi>=0.104.0
-uvicorn>=0.24.0
-pydantic>=2.0.0
-python-dotenv>=1.0.0
-"""
